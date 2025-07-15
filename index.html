@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Roll the Dice</h1>
+
+      <div class="setup">
+       
+        <button id="startBtn">Start Game</button>
+        <button id="rollBtn">Roll Dice 🎲</button>
+      </div>
+
+      <div class="dice">
+        <input type="text" id="player1Name" placeholder="Player 1 Name" />
+        <p id="name1">Player 1</p>
+        <img class="img1" src="./images/dice6.png" alt="Dice 1" />
+        <p class="score" id="score1">Score: 0</p>
+      </div>
+
+      <div class="dice">
+        <input type="text" id="player2Name" placeholder="Player 2 Name" />
+        <p id="name2">Player 2</p>
+        <img class="img2" src="./images/dice6.png" alt="Dice 2" />
+        <p class="score" id="score2">Score: 0</p>
+      </div>
+    </div>
+
+    <footer>DICEE GAME 🎲</footer>
+
+    <!-- ✅ Your JS must be loaded after all elements -->
+    <script src="index.js"></script>
+  </body>
+</html>
